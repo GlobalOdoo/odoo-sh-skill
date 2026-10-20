@@ -26,7 +26,7 @@ browser — see [What this adds](#what-this-adds-over-odouche).
 ### 1. Clone into your Claude skills and run the setup
 
 ```bash
-git clone git@github.com:GlobalOdoo/odoo-sh-skill.git ~/.claude/skills/odoo-sh
+git clone https://github.com/GlobalOdoo/odoo-sh-skill.git ~/.claude/skills/odoo-sh
 ~/.claude/skills/odoo-sh/scripts/setup.sh --claude-permissions
 ```
 
@@ -161,7 +161,7 @@ Easiest is WSL (Ubuntu) with the Linux steps. Natively, in PowerShell:
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 uv tool install odouche-cli
 osh auth login        # asks for the session_id cookie
-git clone git@github.com:GlobalOdoo/odoo-sh-skill.git $env:USERPROFILE\.claude\skills\odoo-sh
+git clone https://github.com/GlobalOdoo/odoo-sh-skill.git $env:USERPROFILE\.claude\skills\odoo-sh
 ```
 
 The session goes to the Windows Credential Locker; `osh ssh` uses the OpenSSH client built into

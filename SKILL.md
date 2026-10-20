@@ -30,7 +30,7 @@ It installs `uv` and `odouche-cli`, patches odouche's login (see below), picks t
 the keyring and SSH key, and prints what is left for the user. Only add `--claude-permissions`
 when the user agrees — it edits `~/.claude/settings.json`. Native Windows: `README.md` →
 "Windows". Re-run the script after `uv tool upgrade odouche-cli`: the upgrade removes the patch.
-The skill lives in the repo `GlobalOdoo/odoo-sh-skill`; update it with
+The skill lives in https://github.com/GlobalOdoo/odoo-sh-skill; update it with
 `git -C ~/.claude/skills/odoo-sh pull`.
 
 The patch (`scripts/patch_odouche.py`, marked "odoo-sh skill patch") does two things upstream
